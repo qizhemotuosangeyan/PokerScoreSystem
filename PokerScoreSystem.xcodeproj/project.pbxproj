@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE1B405F24B5AF2E009F2731 /* testFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1B405E24B5AF2E009F2731 /* testFile.swift */; };
 		EE8D0A8224B31358005C18EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D0A8124B31358005C18EE /* AppDelegate.swift */; };
 		EE8D0A8424B31358005C18EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D0A8324B31358005C18EE /* SceneDelegate.swift */; };
 		EE8D0A8624B31358005C18EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D0A8524B31358005C18EE /* ContentView.swift */; };
@@ -14,6 +15,8 @@
 		EE8D0A8B24B3135B005C18EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8D0A8A24B3135B005C18EE /* Preview Assets.xcassets */; };
 		EE8D0A8E24B3135B005C18EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8D0A8C24B3135B005C18EE /* LaunchScreen.storyboard */; };
 		EE8D0A9924B3135B005C18EE /* PokerScoreSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D0A9824B3135B005C18EE /* PokerScoreSystemTests.swift */; };
+		EE8D0AA424B313D6005C18EE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D0AA324B313D6005C18EE /* Player.swift */; };
+		EE8D0AA624B317B1005C18EE /* CoreGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D0AA524B317B1005C18EE /* CoreGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE1B405E24B5AF2E009F2731 /* testFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testFile.swift; sourceTree = "<group>"; };
 		EE8D0A7E24B31358005C18EE /* PokerScoreSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokerScoreSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE8D0A8124B31358005C18EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE8D0A8324B31358005C18EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 		EE8D0A9424B3135B005C18EE /* PokerScoreSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerScoreSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE8D0A9824B3135B005C18EE /* PokerScoreSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerScoreSystemTests.swift; sourceTree = "<group>"; };
 		EE8D0A9A24B3135B005C18EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8D0AA324B313D6005C18EE /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		EE8D0AA524B317B1005C18EE /* CoreGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +85,11 @@
 		EE8D0A8024B31358005C18EE /* PokerScoreSystem */ = {
 			isa = PBXGroup;
 			children = (
+				EE1B405E24B5AF2E009F2731 /* testFile.swift */,
 				EE8D0A8124B31358005C18EE /* AppDelegate.swift */,
 				EE8D0A8324B31358005C18EE /* SceneDelegate.swift */,
+				EE8D0AA324B313D6005C18EE /* Player.swift */,
+				EE8D0AA524B317B1005C18EE /* CoreGame.swift */,
 				EE8D0A8524B31358005C18EE /* ContentView.swift */,
 				EE8D0A8724B3135B005C18EE /* Assets.xcassets */,
 				EE8D0A8C24B3135B005C18EE /* LaunchScreen.storyboard */,
@@ -208,9 +217,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8D0AA424B313D6005C18EE /* Player.swift in Sources */,
 				EE8D0A8224B31358005C18EE /* AppDelegate.swift in Sources */,
+				EE8D0AA624B317B1005C18EE /* CoreGame.swift in Sources */,
 				EE8D0A8424B31358005C18EE /* SceneDelegate.swift in Sources */,
 				EE8D0A8624B31358005C18EE /* ContentView.swift in Sources */,
+				EE1B405F24B5AF2E009F2731 /* testFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
